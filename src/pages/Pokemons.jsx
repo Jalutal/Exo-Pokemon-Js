@@ -77,11 +77,11 @@ function Pokemons() {
       return (
         <main>
         <Header />
-        <img src="https://www.mypokecard.com/fr/Galerie/my/galery/Llv03Ckd73PO.jpg" />
+        <div className="imgMain"><img src="https://www.mypokecard.com/fr/Galerie/my/galery/Llv03Ckd73PO.jpg" className="imgMain"/></div>
         {pokemonisInTeam.map((pokemon) => {
             return (
                 <>                
-                    <article>
+                    <article className="article">
                         <h2>{pokemon.name}</h2>                                               
                     </article>                                                
                 </>

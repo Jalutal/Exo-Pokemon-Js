@@ -71,11 +71,11 @@ function Home() {
       return (
         <main>
         <Header />
-        <img src="https://www.mypokecard.com/fr/Galerie/my/galery/4vA8D1WzbW7H.jpg" />
+        <div className="imgMain"><img src="https://www.mypokecard.com/fr/Galerie/my/galery/4vA8D1WzbW7H.jpg" className="imgMain"/></div>
         {pokemons.map((pokemon) => {
             return (
                 <>                
-                    <article>
+                    <article className="article">
                         <h2>{pokemon.name}</h2>                                               
                     </article>                                                
                 </>

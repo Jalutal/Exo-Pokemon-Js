@@ -44,3 +44,23 @@
 body {
   background-image: url('https://i.pinimg.com/originals/c2/66/b2/c266b29cb5e5bba5f7b30f14998a8a09.jpg');
 }
+
+.liHeader {
+  background-color: pink;
+}
+
+.ulHeader {
+  list-style-type: none;
+  width: 250px;
+}
+
+.article {
+  background: linear-gradient(90deg, rgba(166,218,39,1) 0%, rgba(118,121,9,0.35057773109243695) 35%, rgba(124,27,214,1) 100%);
+  text-align: center;
+  color: aquamarine;
+}
+
+.imgMain {
+ display: flex;
+ justify-content: center;
+}

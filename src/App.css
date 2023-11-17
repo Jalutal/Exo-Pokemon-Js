@@ -58,9 +58,26 @@ body {
   background: linear-gradient(90deg, rgba(166,218,39,1) 0%, rgba(118,121,9,0.35057773109243695) 35%, rgba(124,27,214,1) 100%);
   text-align: center;
   color: aquamarine;
+  width: 75%;
+  margin: auto;
+  border-radius: 25px;
+  position: sticky;
+  top: 100px;
 }
 
 .imgMain {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  
+ }
+ 
+.mainPok {
+  background-image: url('https://i.ytimg.com/vi/jH2v4gQq4Pk/maxresdefault.jpg');
+  background-size: contain;
+}
+
+header {
+  position: sticky;
+  top: 0px;
 }
